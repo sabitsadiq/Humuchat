@@ -10,7 +10,7 @@ export default function VideoPlayer() {
         width="100%"
         height="100%"
         object-fit="cover"
-        // playing
+        playing
         loop
         muted
       />

@@ -10,27 +10,35 @@ const MeetPartner = () => {
         height={56}
         alt="love-1s"
       />
-      <img
+      <Image
         src="/images/love-1.png"
         className="hidden md:block absolute left-14 lg:left-[7.5rem] xl:left-[13.5rem] top-[7rem] w-20 h-20 2xl:w-[12rem] 2xl:h-[12rem] 2xl:left-[23.5rem] bg-linear-gradient-custom-gradient"
         width={80}
         height={80}
         alt="love-1"
       />
-      <img
+      <Image
         src="/images/love-2s.png"
         className="hidden md:block absolute right-14 top-[4rem] lg:right-[6.5rem] xl:right-[12.5rem] w-14 h-14 2xl:w-[8.5rem] 2xl:h-[8.5rem] 2xl:right-[21.5rem]"
         width={56}
         height={56}
         alt="love-2s"
       />
-      <img
+      <Image
         src="/images/love-2.png"
         className="hidden md:block absolute right-14 top-[7rem] lg:right-[7.5rem] xl:right-[13.5rem] w-20 h-20 2xl:w-[12rem] 2xl:h-[12rem] 2xl:right-[23.5rem]"
         width={80}
         height={80}
         alt="love-2"
       />
+      <div className="absolute bottom left-0">
+        <Image
+          src="/images/love-2.png"
+          className="w-4 h-4"
+          width={100}
+          height={100}
+        />
+      </div>
       <div className="px-6   md:w-[60%] md:h-[200px] xl:h-[112px]  lg:w-[48%]  mx-auto lg:mt-8 lg:-mb-8 mb:pt-12 flex flex-col items-start md:center md:items-center">
         <h1 className="mt-2 font-bold text-[34px] lg:text-4xl xl:text-5xl text-[#000000] pb-4 xl:pb-2 2xl:text-7xl">
           Meet your dream partner
