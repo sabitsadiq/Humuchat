@@ -8,7 +8,7 @@ const Sidebar = ({ isOpen, toggleSide }) => {
     <div
       className={`w-screen h-screen ${
         isOpen ? "fixed" : "hidden"
-      } top-0 left-0 pl-4 bg-gray-500 z-20 grid text-white  justify-items-start items-start pt-8`}
+      } top-0 left-0 pl-4 bg-gray-500 z-30 grid text-white  justify-items-start items-start pt-8`}
     >
       <div className="absolute top-4 right-4 text-[24px]" onClick={toggleSide}>
         <RiCloseFill />

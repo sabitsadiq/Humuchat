@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../components/Title";
+import Title from "./Title";
 const Footer = () => {
   return (
     <section className="py-12 ">

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const MeetPartner = () => {
   return (
-    <section className="relative md:mt-4 md:-mb-12 xl:my-14  2xl:mt-24 2xl:mb-48 pb-4 z-20 bg-cover bg-center">
+    <section className="relative md:mt-4 md:-mb-12 xl:my-14  2xl:mt-24 2xl:mb-48 pb-4 bg-cover bg-center">
       <Image
         src="/images/love-1.png"
         className="hidden md:block absolute left-10 lg:left-[6.5rem] xl:left-[12.5rem] top-[4rem] w-14 h-14 2xl:w-[8.5rem] 2xl:h-[8.5rem] 2xl:left-[21.5rem] bg-linear-gradient-custom-gradient"
@@ -31,13 +31,23 @@ const MeetPartner = () => {
         height={80}
         alt="love-2"
       />
-      <div className="absolute bottom left-0">
-        <Image
-          src="/images/love-2.png"
-          className="w-4 h-4"
-          width={100}
-          height={100}
-        />
+      <div className="hidden md:flex w-full absolute left-0 bottom-[-100%] lg:bottom-[-145%] xl:bottom-[-507%] gap-[60%] xl:gap-[60%]">
+        <div className="w-[20%] xl:w-[30%] overflow-hidden">
+          <Image
+            src="/images/love-1.png"
+            className="w-96 h-64 -ml-10"
+            width={200}
+            height={200}
+          />
+        </div>
+        <div className="w-[20%] xl:w-[30%] overflow-hidden">
+          <Image
+            src="/images/love-2.png"
+            className="w-96 h-64 ml-10"
+            width={200}
+            height={200}
+          />
+        </div>
       </div>
       <div className="px-6   md:w-[60%] md:h-[200px] xl:h-[112px]  lg:w-[48%]  mx-auto lg:mt-8 lg:-mb-8 mb:pt-12 flex flex-col items-start md:center md:items-center">
         <h1 className="mt-2 font-bold text-[34px] lg:text-4xl xl:text-5xl text-[#000000] pb-4 xl:pb-2 2xl:text-7xl">
@@ -48,7 +58,7 @@ const MeetPartner = () => {
           suspendisse rhoncus venenatis nisl magna scelerisque. Morbi tincidunt
           urna neque neque.
         </p>
-        <button className=" flex px-14 py-2 mx-auto ring-[#042F88] ring-1 text-2xl font-semibold leading-[26.6px] rounded-[32px] items-center  align-center text-[#042F88] mt-6 xl:mt-[2.5rem] mb-8 2xl:px-28 2xl:py-7 hover:bg-[#042F88] hover:text-white">
+        <button className=" flex px-14 py-2 z-30 mx-auto ring-[#042F88] ring-1 text-2xl font-semibold leading-[26.6px] rounded-[32px] items-center  align-center text-[#042F88] mt-6 xl:mt-[2.5rem] mb-8 2xl:px-28 2xl:py-7 hover:bg-[#042F88] hover:text-white">
           Find Now
         </button>
       </div>

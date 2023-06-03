@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "../components/Title";
-import Heading from "../components/Heading";
+import Title from "./Title";
+import Heading from "./Heading";
 import Image from "next/image";
 const JourneyBegines = () => {
   return (

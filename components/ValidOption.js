@@ -14,7 +14,7 @@ const ValidOption = () => {
             <h1 className="text-[#000000] text-3xl 2xl:text-5xl">
               Sade thomas
             </h1>
-            <p className="my-4 md:pb-8 lg:my-3">
+            <p className="my-4 lg:pb-8 lg:my-3">
               &ldquo;Ideal and halal way to meet a potential spouse&rdquo;
             </p>
             <span className="flex items-center -p-6 justify-center gap-2">
@@ -60,7 +60,7 @@ const ValidOption = () => {
             <h1 className="text-[#000000] text-3xl 2xl:text-5xl">
               Sade thomas
             </h1>
-            <p className="md:mb-6 md:mt-4 lg:my-4">
+            <p className="lg:mb-6 md:mt-4 lg:my-4">
               &ldquo;I&apos;m falling in love with this app&rdquo;
             </p>
             <span className="flex items-center pt-6 justify-center gap-2">

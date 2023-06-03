@@ -1,5 +1,5 @@
 import Image from "next/image";
-import VideoPlayer from "../components/VideoPlayer";
+import VideoPlayer from "./VideoPlayer";
 // import Navbar from "../components/Navbar";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
           className="w-[90%] md:w-[49%] lg:w-[40%] xl:w-[30%] flex flex-col md:flex-row 
         gap-2 lg:gap-[10%] xl:mt-12 mb-8 2xl:text-xl"
         >
-          <div className="flex rounded-2xl w-full md:rounded-full bg-white items-center py-2 px-4 gap-4 md:gap-2 lg:w-[45%] mx-auto xl:mx-0">
+          <div className="flex rounded-2xl w-full md:rounded-full items-center py-2 px-4 gap-4 md:gap-2 lg:w-[45%] mx-auto xl:mx-0  bg-[#042F88] text-[#fff] hover:bg-[#fff] hover:text-[black]">
             <div className=" flex items-center gap-2 mx-auto">
               <Image
                 src="/images/play-store.png"
@@ -32,7 +32,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="flex rounded-2xl w-full md:rounded-full bg-white items-center p-2 md:py-2 md:px-[1.2rem] gap-4 md:gap-2 lg:w-[45%]  mx-auto">
+          <div className="flex rounded-2xl w-full md:rounded-full items-center p-2 md:py-2 md:px-[1.2rem] gap-4 md:gap-2 lg:w-[45%]  mx-auto  bg-[#042F88] text-[#fff] hover:bg-[#fff] hover:text-[black]">
             <div className=" flex items-center gap-2 mx-auto">
               <Image
                 src="/images/appleLogo.png"

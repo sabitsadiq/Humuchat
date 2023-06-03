@@ -1,19 +1,11 @@
 import React from "react";
 import Title from "./Title";
-import Why from "../components/Why";
+import Why from "./Why";
 import Image from "next/image";
 const WhyHumu = () => {
   return (
-    <section className="relative">
+    <section className="relative z-20">
       <Why className="hidden overlow-hidden lg:block" />
-      {/* h-[1100px] md:h-[790px] lg:h-[915px] xl:h-[1125px] 2xl:h-[1360px]"> */}
-      {/* <Image
-        src="/images/Rectangle-13.png"
-        className="2xl:absolute 2xl:top-[18rem] 2xl:left-0 w-[250] h-[250] md:h-full md:w-[1030px] xl:h-[910px] xl:w-[1455px] 2xl:w-[2560px] 2xl:h-[1350px]"
-        width={14}
-        height={14}
-        alt="rectangle-13"
-      /> */}
       <div className="absolute  left-[1.25rem] top-0 md:top-60 md:left-10 lg:top-72 xl:top-[30rem] 2xl:top-[42rem]   2xl:left-[5.5rem] flex flex-col md:flex-row w-[90%] gap-6 lg:gap-14 xl:gap-32 2xl:gap-96 mx-auto">
         <div className=" xl:-mt-24">
           <Title text="why Humu" />
@@ -93,9 +85,9 @@ const WhyHumu = () => {
                     Voice & video profile
                   </h4>
                 </div>
-                <p className="lg:text-[16px] 2xl:w-fit 2xl:mx-auto 2xl:text-[26px]">
-                  Show off your personality and stand out from the crowd by
-                  adding Voice & Video intros to your profile
+                <p className="lg:text-[16px] flex-wrap 2xl:w-fit 2xl:mx-auto 2xl:text-[26px]">
+                  Show off your personality and stand out from the cro by adding
+                  Voice & Video intros to your profile
                 </p>
               </div>
             </div>

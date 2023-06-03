@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ["latin"] });
+const segoe = localFont({ src: "../public/Segoe_UI.woff" });
 
 export const metadata = {
   title: "humuchat",
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={segoe.className}>{children}</body>
     </html>
   );
 }
