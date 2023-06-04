@@ -12,22 +12,19 @@ const Navbar = ({ toggleSide }) => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
   }, []);
   return (
     <div
-      className={`w-[100%] fixed top-0 onScroll=bg-white
-      z-30 p-4 2xl:py-6 className={scrollPosition > 0 ? "bg-white" : "bg-none"}`}
+      className={`w-[100%] fixed top-0
+      z-30 p-2 2xl:py-6 ${scrollPosition > 0 ? "bg-white" : "bg-none"}`}
     >
       <div className="flex justify-between md:w-[95%] mx-auto">
         <div className="text-[24px] 2xl:text-4xl">
           <Image
             src="/images/humucare-logo.png"
             alt="logo"
-            width={100}
-            height={100}
+            width={80}
+            height={80}
           />
         </div>
         <div className="hidden md:flex gap-6 text-lg 2xl:text-4xl">

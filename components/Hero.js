@@ -1,5 +1,6 @@
 import Image from "next/image";
 import VideoPlayer from "./VideoPlayer";
+import { FaApple } from "react-icons/fa";
 // import Navbar from "../components/Navbar";
 
 const Hero = () => {
@@ -34,13 +35,7 @@ const Hero = () => {
           </div>
           <div className="flex rounded-2xl w-full md:rounded-full items-center p-2 md:py-2 md:px-[1.2rem] gap-4 md:gap-2 lg:w-[45%]  mx-auto  bg-[#042F88] text-[#fff] hover:bg-[#fff] hover:text-[black]">
             <div className=" flex items-center gap-2 mx-auto">
-              <Image
-                src="/images/appleLogo.png"
-                className="w-7 h-6 2xl:w-11 2xl:h-11"
-                width={20}
-                height={20}
-                alt="appleLogo"
-              />
+              <FaApple className="w-8 h-8 2xl:w-11 2xl:h-11" />
               <a href="/">
                 GET IT ON <span className="md:font-bold">APPLE STORE</span>
               </a>
