@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const MeetPartner = () => {
   return (
-    <section className="relative md:mt-4 md:-mb-12 xl:my-14  2xl:mt-24 2xl:mb-48 pb-4 bg-cover bg-center">
+    <section className="relative md:mt-4 md:-mb-12   2xl:mt-24 2xl:mb-16 pb-4 bg-cover bg-center">
       <Image
         src="/images/love-1.png"
         className="hidden md:block absolute left-10 lg:left-[6.5rem] xl:left-[12.5rem] top-[4rem] w-14 h-14 2xl:w-[8.5rem] 2xl:h-[8.5rem] 2xl:left-[21.5rem] bg-linear-gradient-custom-gradient"
@@ -12,7 +12,7 @@ const MeetPartner = () => {
       />
       <Image
         src="/images/love-1.png"
-        className="hidden md:block absolute left-14 lg:left-[7.5rem] xl:left-[13.5rem] top-[7rem] w-20 h-20 2xl:w-[12rem] 2xl:h-[12rem] 2xl:left-[23.5rem] bg-linear-gradient-custom-gradient"
+        className="hidden md:block absolute left-14 lg:left-[7.5rem] xl:left-[13.5rem] top-[7rem] w-20 h-20 xl:w-36 xl:h-36 2xl:w-[12rem] 2xl:h-[12rem] 2xl:left-[23.5rem] bg-linear-gradient-custom-gradient"
         width={80}
         height={80}
         alt="love-1"
@@ -31,7 +31,7 @@ const MeetPartner = () => {
         height={80}
         alt="love-2"
       />
-      <div className="hidden md:flex w-full absolute left-0 bottom-[-100%] lg:bottom-[-145%] xl:bottom-[-507%] gap-[60%] xl:gap-[60%]">
+      <div className="hidden md:flex w-full absolute left-0 bottom-[-100%] lg:bottom-[-145%] xl:bottom-[-380%] gap-[60%] xl:gap-[60%]">
         <div className="w-[20%] xl:w-[30%] overflow-hidden">
           <Image
             src="/images/love-1.png"
@@ -43,7 +43,7 @@ const MeetPartner = () => {
         <div className="w-[20%] xl:w-[30%] overflow-hidden">
           <Image
             src="/images/love-2.png"
-            className="w-96 h-64 ml-10"
+            className="w-96 h-64 ml-10 text-gradient-to-r from-white to-[#042F88]"
             width={200}
             height={200}
           />

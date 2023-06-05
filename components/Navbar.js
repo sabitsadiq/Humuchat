@@ -16,7 +16,7 @@ const Navbar = ({ toggleSide }) => {
   return (
     <div
       className={`w-[100%] fixed top-0
-      z-30 p-2 2xl:py-6 ${scrollPosition > 0 ? "bg-white" : "bg-none"}`}
+       z-30 p-2 2xl:py-6 ${scrollPosition > 0 ? "bg-white" : "bg-none"}`}
     >
       <div className="flex justify-between md:w-[95%] mx-auto">
         <div className="text-[24px] 2xl:text-4xl">
@@ -54,7 +54,7 @@ const Navbar = ({ toggleSide }) => {
           Sign Up
         </a>
         <div
-          className="z-30 md:hidden text-[24px] text-white"
+          className="opacity-1 self-center text-[#000] md:hidden text-[24px] md:text-white"
           onClick={toggleSide}
         >
           <FiMenu />

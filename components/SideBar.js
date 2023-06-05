@@ -6,9 +6,8 @@ import Link from "next/link";
 const Sidebar = ({ isOpen, toggleSide }) => {
   return (
     <div
-      className={`w-screen h-screen ${
-        isOpen ? "fixed" : "hidden"
-      } top-0 left-0 pl-4 bg-gray-500 z-30 grid text-white  justify-items-start items-start pt-8`}
+      className={`w-screen h-screen ${isOpen ? "fixed" : "hidden"}
+      top-0 left-0 opacity-100 pl-4 bg-gray-500 z-30 grid text-white  justify-items-start items-start pt-8 `}
     >
       <div className="absolute top-4 right-4 text-[24px]" onClick={toggleSide}>
         <RiCloseFill />

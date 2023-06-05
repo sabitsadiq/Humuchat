@@ -14,7 +14,7 @@ const WhyHumu = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-2  2xl:gap-8 md:w-[425px] lg:w-[510px] xl:mt-40 xl:w-[500px] 2xl:w-[1064px]">
             <div className="rounded-[32px] flex   bg-[#BCD2FF] p-3.5 2xl:p-6 md:px-2 md:py-4 lg:text-center min-h-[140px] xl:min-h-[190px] 2xl:h-[390px]">
-              <div className="self-center items-start">
+              <div className="items-start">
                 <div className="flex gap-2 text-xl font-extrabold md:mx-auto w-fit items-center 2xl:mb-4 xl:mt-4 2xl:mt-16">
                   <Image
                     className="w-3.5 h-3.5 2xl:w-6 2xl:h-6"
@@ -62,7 +62,7 @@ const WhyHumu = () => {
                   height={14}
                   alt="privacy"
                 />
-                <h4 className="w-[260px] text-2xl md:text-xl 2xl:text-3xl ">
+                <h4 className="xl:w-[260px] text-2xl md:text-xl 2xl:text-3xl ">
                   Complete privacy
                 </h4>
               </div>
@@ -72,8 +72,8 @@ const WhyHumu = () => {
               </p>
             </div>
             <div className="rounded-[32px] flex bg-[#BCD2FF] p-3.5 2xl:p-6 md:p-2 lg:text-center lg:text-[20px] min-h-[140px] 2xl:h-[390px]">
-              <div className="self-center">
-                <div className="flex gap-[0.4rem] md:pt-[0.5rem] font-extrabold md:mx-auto  md:w-[211px]  2xl:w-fit 2xl:mb-4 items-center xl:mt-4 2xl:mt-16">
+              <div className="">
+                <div className="flex gap-[0.4rem] md:pt-[0.5rem] font-extrabold md:mx-auto  xl:w-[211px]  2xl:w-fit 2xl:mb-4 items-center xl:mt-4 2xl:mt-16">
                   <Image
                     className="w-3.5 h-3.5 2xl:w-6 2xl:h-6"
                     width={14}
@@ -81,11 +81,11 @@ const WhyHumu = () => {
                     src="/images/profile.png"
                     alt="profile"
                   />
-                  <h4 className="w-fit grow md:w-[300px] text-2xl md:text-base 2xl:text-3xl">
+                  <h4 className="w-fit grow xl:w-[300px] text-2xl md:text-base 2xl:text-3xl">
                     Voice & video profile
                   </h4>
                 </div>
-                <p className="lg:text-[16px] flex-wrap 2xl:w-fit 2xl:mx-auto 2xl:text-[26px]">
+                <p className="lg:text-[16px] lg:pb-16 flex-wrap 2xl:w-fit 2xl:mx-auto 2xl:text-[26px]">
                   Show off your personality and stand out from the cro by adding
                   Voice & Video intros to your profile
                 </p>

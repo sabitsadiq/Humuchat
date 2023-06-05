@@ -1,7 +1,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 
-const segoe = localFont({ src: "../public/Segoe_UI.woff" });
+const segoe = localFont({ src: "../public/SEGOEUIL.ttf" });
 
 export const metadata = {
   title: "humuchat",
