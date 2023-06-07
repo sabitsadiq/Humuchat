@@ -19,7 +19,7 @@ const JourneyBegines = () => {
             Meet your dream partner
           </h2>
         </div>
-        <div className="grid grid-cols-2 xl:gap-20 md:gap-8 2xl:gap-40 mt-4 xl:mt-16">
+        <div className="grid grid-cols-2 xl:gap-20 md:gap-8 mt-4 xl:mt-16">
           <div className="flex flex-nowrap relative w-full">
             <div className="flex w-full h-full z-10 flex-row gap-[4%] ">
               <div className="w-[48%]">
@@ -52,7 +52,7 @@ const JourneyBegines = () => {
           <div className="flex flex-row">
             <div className="self-center md:self-start md:pt-4">
               <div className="xl:w-[65%] 2xl:w-9/12">
-                <h1 className="font-bold text-[34px] lg:text-4xl xl:text-4xl 2xl:text-8xl text-[#000000] pb-8 xl:pb-2 2xl:mb-6">
+                <h1 className="font-bold text-[34px] lg:text-4xl xl:text-4xl text-[#000000] pb-8 xl:pb-2 2xl:mb-6">
                   Your perfect Match is just a dm away.
                 </h1>
                 <p className="xl:text-2xl 2xl:mb-6">

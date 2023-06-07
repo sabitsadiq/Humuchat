@@ -71,9 +71,9 @@ const WhyHumu = () => {
                 to friends and family
               </p>
             </div>
-            <div className="rounded-[32px] flex bg-[#BCD2FF] p-3.5 2xl:p-6 md:p-2 lg:text-center lg:text-[20px] md:min-h-[200px] 2xl:h-[390px]">
+            <div className="rounded-[32px] flex bg-[#BCD2FF] p-3.5 2xl:p-6 md:p-2 lg:text-center lg:text-[20px] h-[140px] md:min-h-[200px] 2xl:h-[390px]">
               <div className="">
-                <div className="flex gap-[0.4rem] md:pt-[0.5rem] font-extrabold md:mx-auto  xl:w-[211px]  2xl:w-fit 2xl:mb-4 items-center xl:mt-4 2xl:mt-16">
+                <div className="flex gap-[0.4rem] md:pt-4 font-extrabold md:mx-auto  xl:w-[211px]  2xl:w-fit 2xl:mb-4 items-center xl:mt-4 2xl:mt-16">
                   <Image
                     className="w-3.5 h-3.5 2xl:w-6 2xl:h-6"
                     width={14}
