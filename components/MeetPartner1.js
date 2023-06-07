@@ -8,14 +8,14 @@ const MeetPartner1 = () => {
         <div>
           <Image
             src="/images/love-1.png"
-            className="hidden md:block w-14 h-14 2xl:w-[8.5rem] 2xl:h-[8.5rem]"
+            className="hidden md:block w-14 h-14 xl:w-24 xl:h-24 2xl:w-[8.5rem] 2xl:h-[8.5rem]"
             width={56}
             height={56}
             alt="love-1s"
           />
           <Image
             src="/images/love-1.png"
-            className="hidden md:block  w-20 h-20 xl:w-36 xl:h-36 2xl:w-[12rem] 2xl:h-[12rem]"
+            className="hidden md:block  w-20 h-20 xl:w-36 xl:h-36 -mt-8 2xl:w-[12rem] 2xl:h-[12rem]"
             width={80}
             height={80}
             alt="love-1"
@@ -37,14 +37,14 @@ const MeetPartner1 = () => {
         <div>
           <Image
             src="/images/love-2s.png"
-            className="hidden md:block  w-14 h-14 2xl:w-[8.5rem] 2xl:h-[8.5rem]"
+            className="hidden md:block  w-14 h-14 xl:w-24 xl:h-24 2xl:w-[8.5rem] 2xl:h-[8.5rem]"
             width={56}
             height={56}
             alt="love-2s"
           />
           <Image
             src="/images/love-2.png"
-            className="hidden md:block w-20 h-20 2xl:w-[12rem] 2xl:h-[12rem]"
+            className="hidden md:block w-20 h-20 xl:w-36 xl:h-36 -mt-8 2xl:w-[12rem] 2xl:h-[12rem]"
             width={80}
             height={80}
             alt="love-2"
