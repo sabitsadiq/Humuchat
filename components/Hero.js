@@ -9,8 +9,8 @@ const Hero = () => {
       <VideoPlayer className="object-cover" />
       <div className="absolute top-0 left-0 h-full w-full bg-[rgba(0,0,0,.4)]"></div>
       <div className="absolute top-0 w-full h-full flex flex-col items-center justify-end md:justify-center text-start ">
-        <h1 className="text-white text-7xl">Humuchat</h1>
-        <p className="text-white text-center my-4 md:my-8 md:w-[60%] lg:w-[45%] xl:text-2xl 2xl:text-4xl">
+        <h1 className="text-white text-6xl font-bold">Humuchat</h1>
+        <p className="text-white text-center my-4 md:my-8 md:w-2/3 lg:w-1/2 xl:w-2/5 2xl:w-1/3 text-xl font-semibold">
           Lorem ipsum dolor sit amet consectetur. Sodales tellus lorem
           suspendisse rhoncus venenatis nisl magna scelerisque. Morbi tincidunt
           urna neque neque.
@@ -23,7 +23,7 @@ const Hero = () => {
             <div className=" flex items-center gap-2 mx-auto">
               <Image
                 src="/images/play-store.png"
-                className="w-8 h-8 md:w-4 md:h-4 2xl:w-11 2xl:h-11"
+                className="w-8 h-8 md:w-4 md:h-4 2xl:w-8 2xl:h-8"
                 width={20}
                 height={20}
                 alt="play-store"

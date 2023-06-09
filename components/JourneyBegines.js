@@ -4,22 +4,22 @@ import Heading from "./Heading";
 import Image from "next/image";
 const JourneyBegines = () => {
   return (
-    <section className="relative bg-cover bg-center">
+    <section className="">
       <Image
         src="/images/Rectangle-10.png"
-        className="hidden md:block w-full h-[670px] xl:h-[890px]  2xl:h-[1500px]"
+        className="hidden md:flex w-full md:h-[46rem] 2xl:h-[55rem]"
         width={760}
         height={710}
         alt="rectangle-10"
       />
-      <div className="hidden md:block absolute top-16 left-10 2xl:left-24 w-[90%] mx-auto  mb:pb-[12rem]">
+      <div className="hidden md:block w-[90%] mx-auto  md:mt-[-44rem] 2xl:mt-[-53rem] md:mb-40 2xl:mb-56 xl:mb-36 lg:mb-56">
         <div className="sm:pb-2">
           <Title text="Journey begins" />
-          <h2 className="font-bold text-[34px] lg:text-4xl xl:text-5xl 2xl:text-6xl text-[#000000] pb-4 xl:p-2;">
+          <h2 className="font-bold text-5xl md:w-3/5 lg:w-1/2 xl:w-2/5 2xl:w-[30%] text-[#000000] pb-4 xl:p-2;">
             Meet your dream partner
           </h2>
         </div>
-        <div className="grid grid-cols-2 xl:gap-20 md:gap-8 mt-4 xl:mt-16">
+        <div className="grid grid-cols-2 xl:gap-20 md:gap-8 mt-4">
           <div className="flex flex-nowrap relative w-full">
             <div className="flex w-full h-full z-10 flex-row gap-[4%] ">
               <div className="w-[48%]">
@@ -49,13 +49,13 @@ const JourneyBegines = () => {
               alt="shadow"
             />
           </div>
-          <div className="flex flex-row">
+          <div className="flex flex-row xl:w-[68%]">
             <div className="self-center md:self-start md:pt-4">
-              <div className="xl:w-[65%] 2xl:w-9/12">
-                <h1 className="font-bold text-[34px] lg:text-4xl xl:text-4xl text-[#000000] pb-8 xl:pb-2 2xl:mb-6">
+              <div className="">
+                <h1 className="font-semibold text-4xl text-[#000000] pb-8 xl:pb-2 2xl:mb-6">
                   Your perfect Match is just a dm away.
                 </h1>
-                <p className="xl:text-2xl 2xl:mb-6">
+                <p className="font-normal text-xl 2xl:mb-6">
                   Lorem ipsum dolor sit amet consectetur. Sodales tellus lorem
                   suspendisse rhoncus venenatis nisl magna scelerisque. Morbi
                   tincidunt urna neque neque.

@@ -4,7 +4,7 @@ import React from "react";
 const MeetPartner1 = () => {
   return (
     <section>
-      <div className="flex justify-around mt-8 2xl:my-16 w-[90%] mx-auto md:w-full">
+      <div className="flex justify-around z-30 mt-8 2xl:my-16 w-[90%] mx-auto md:w-full">
         <div>
           <Image
             src="/images/love-1.png"
@@ -22,10 +22,10 @@ const MeetPartner1 = () => {
           />
         </div>
         <div className="md:w-[60%]">
-          <h1 className="mt-2 font-bold text-[31px] text-center lg:text-4xl xl:text-5xl text-[#000000] pb-4 xl:pb-2 2xl:text-7xl">
+          <h1 className="mt-2 font-semibold text-4xl lg:text-5xl md:text-center text-[#000000] pb-4 xl:pb-2">
             Meet your dream partner
           </h1>
-          <p className="text-center w-30% xl:text-[20px] 2xl:text-4xl 2xl:my-8">
+          <p className="text-center w-full lg:w-3/4 mx-auto font-normal lg:text-2xl 2xl:my-8">
             Lorem ipsum dolor sit amet consectetur. Sodales tellus lorem
             suspendisse rhoncus venenatis nisl magna scelerisque. Morbi
             tincidunt urna neque neque.

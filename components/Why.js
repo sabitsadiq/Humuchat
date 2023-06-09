@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Why = () => {
   return (
-    <div>
+    <div className="">
       <Image
         src="/images/Rectangle-13.png"
-        className="block w-full h-[1360px]  md:h-[980px] lg:h-[1155px] xl:h-[1670px] 2xl:h-[2350px]"
+        className="hidden md:block w-full"
         width={760}
         height={710}
         alt="rectangle-13"
